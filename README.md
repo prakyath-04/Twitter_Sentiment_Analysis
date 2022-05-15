@@ -18,4 +18,4 @@ This is the link to the dataset: http://help.sentiment140.com/for-students
 
 ## Results:
 
-![plot](./directory_1/directory_2/.../directory_n/Result1.png)
+![plot](https://github.com/prakyath-04/Twitter_Sentiment_Analysis/blob/main/Result1.png)

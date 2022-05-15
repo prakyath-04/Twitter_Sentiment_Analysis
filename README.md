@@ -11,10 +11,23 @@ Later we also create a BERT classifier using the bert vectorizing model, which g
 
 We also tried running the algorithm for different scales of the input. (100 to 1M Tweets)
 
+#### How to run the code:
+
 We just have a single jupyter notebook file, Twitter_sentiment_analysis.ipynb. You can just run the notebook in order. Make sure you change the path to the input csv file which contains the tweets. Also, install the required libraries to run the code. (All the libraries are imported in the first cell).
 
 We have used the Sentiment140 dataset, which consists of 1.6 M tweets. 
 This is the link to the dataset: http://help.sentiment140.com/for-students
+
+#### Code Structure:
+
+First we preprocess the data, by removing unnecssary columns, and then clean the tweets by removing twitter handles, punctuations, numbers and short words. Then we apply the porter stemmer, which removes the morphological endings of english words.
+
+Then we create a classifier function, which defines the different classifiers. When we pass data into the function, the models get trained and we get the accuracies and times.
+
+Later we tokenize the input by selecting each tokenizer and then apply the classifier function to report the accuracy metrics. 
+
+Finally, we define a bert classifier, that takes bert tokens as inputs and we train the model, and later use for predicting tweet sentiment.
+
 
 ## Results:
 

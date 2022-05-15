@@ -18,3 +18,4 @@ This is the link to the dataset: http://help.sentiment140.com/for-students
 
 ## Results:
 
+![plot](./directory_1/directory_2/.../directory_n/Result1.png)

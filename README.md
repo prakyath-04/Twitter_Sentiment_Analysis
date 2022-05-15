@@ -18,4 +18,11 @@ This is the link to the dataset: http://help.sentiment140.com/for-students
 
 ## Results:
 
+### Trainig times,accuracies,f1_scores for different ML algorithms and Tokenizers
+![plot](https://github.com/prakyath-04/Twitter_Sentiment_Analysis/blob/main/Result3.png)
+
+###  Trainig times,accuracies,f1_scores for Bert classifier at different input scales
+![plot](https://github.com/prakyath-04/Twitter_Sentiment_Analysis/blob/main/Result2.png)
+
+###  Tokenizing times for different tokenizers at different input scales
 ![plot](https://github.com/prakyath-04/Twitter_Sentiment_Analysis/blob/main/Result1.png)
